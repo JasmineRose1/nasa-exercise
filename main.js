@@ -11,7 +11,7 @@
 $(document).ready(function(){
   $("#getNasaPic").on("click", function(){
 
-  var apiKey = "j5eg0ikpLsgr4ILv18gpdeJe7a8yq8STO1FUe1T6";
+  var apiKey = "";
   var url = "https://api.nasa.gov/planetary/apod?api_key=j5eg0ikpLsgr4ILv18gpdeJe7a8yq8STO1FUe1T6";
   $.ajax({
     url: "https://api.nasa.gov/planetary/apod?api_key=j5eg0ikpLsgr4ILv18gpdeJe7a8yq8STO1FUe1T6",
